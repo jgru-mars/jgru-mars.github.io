@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url('https://fonts.googleapis.com/css?family=Federo&display=swap');
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("duckiesforbackground.jpg");
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	clear: both;
+	text-align:center;
+}
+#logo {
+	padding: 10px;
+}
+nav a:hover {
+	color: yellow;
+	background-color: black;
+}
+nav {
+	padding: 10px;
+	text-align: center;
+	background-color: yellow;
+	padding: 5px 0;
+	font-family: 'Federo', ;
+}
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+nav a {
+	color: black;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+nav a:hover {
+	color: white;
+}
+section {
+	background-color:rgba(255,255,0,0.9);
+}
+.welcome {
+	padding: 10px 15px;
+	margin: 20px 0;
+	overflow: auto;
+}
+
+.ducksbelow {
+	padding: 10px 15px;
+	margin: 20px 0;
+	overflow: auto;
+}
+.ducksbelow figure img {
+	width: 30%;
+	text-align: center;
+	padding: 2px 2px 1px px;
+}
+
+.ducksbelow figcaption {
+	color: #fff;
+	font-family: Arial,sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	margin: 1px;
+}
+.duckbelow figure {
+	width: 15%;
+	border: 1px solid white;
+	margin: 10px;
+	text-align: center;
+	padding: 2px;
+	background-color: rgba(0,0,0,1);
+	float: left;
+}
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: #8CF0EF;
+}
+
+figure {
+	width: 70%;
+	border: 1px solid white;
+	margin: 10px;
+	text-align: center;
+	padding: 2px;
+	background-color: rgba(0,0,0,1);
+	float: left;
+}
+
+figure img {
+	width: 90%;
+	text-align: center;
+	padding: 10px 10px 1px 10px;
+}
+
+figcaption {
+	color: #fff;
+	font-family: Arial,sans-serif;
+	font-size: 90%;
+	font-weight: bold;
+	margin: 4px;
+	
+	
+}
