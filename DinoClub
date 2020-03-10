@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dino Club</title>
+	</head>
+	<body>
+		<header>
+			<figure>
+				<img src="dinoclublogo.jpg" alt="Dino Club Logo" title="Dino Club">
+				<figcaption>Dino Club Logo</figcaption>
+			</figure>
+		</header>
+	</body>
+	
+</html>
