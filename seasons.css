@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: gray;
+}
+
+#winter {
+	background-color: #B3DAF1;
+}
+
+#spring {
+	background-color: green;
+}
+
+#autumn {
+	background-color: orange;
+}
+
+#summer {
+	background-color: rgb(255,215,0);
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header {
+	
+}
+
+#seasons header img{
+	width: 100%;
+	height: 300px;
+	padding: 5px;
+}
+
+#winter header img{
+	width: 100%;
+	height: 300px;
+	padding: 5px;
+}
+
+#spring header img{
+	width: 100%;
+	height: 300px;
+	padding: 5px;
+}
+
+#autumn header img{
+	width: 100%;
+	height: 300px;
+	padding: 5px;
+}
+
+#summer header img{
+	width: 100%;
+	height: 300px;
+	padding: 5px;
+}
+
+nav {
+	text-align: center;
+	background-color: black;
+	padding: 10px 0;
+	font-family: Inter;
+}
+
+#seasons nav {
+	text-align: center;
+	background-color: black;
+	padding: 10px 0;
+	font-family: Inter;
+}
+
+#winter nav {
+	text-align: center;
+	background-color: white;
+	padding: 10px 0;
+	font-family: Inter;
+}
+
+#spring nav {
+	text-align: center;
+	background-color: rgb(255,245,238);
+	padding: 10px;
+	border: 5px solid green;
+	font-family: Inter;
+}
+
+#autumn nav {
+	text-align: center;
+	background-color: #d1242f;
+	padding: 10px;
+	border: 5px solid orange;
+	font-family: Inter;
+}
+
+#summer nav {
+	text-align: center;
+	background-color: rgb(30,144,255);
+	padding: 10px;
+	border: 5px solid rgb(255,215,0);
+	font-family: Inter;
+}
+
+nav a {
+	color: white;
+	font-size: 30px;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: yellow;
+	background-color: black;
+}
+
+#seasons nav a {
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+#seasons nav a:hover {
+	color: white;
+	background-color: gray;
+}
+
+#winter nav a {
+	color: #0099ff;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+#winter nav a:hover {
+	color: blue;
+	background-color: #B3DAF1;
+}
+
+#spring nav a {
+	color: rgb(0,90,0);
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+#spring nav a:hover {
+	color: black;
+	background-color: green;
+}
+
+#autumn nav a {
+	color: black;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+#autumn nav a:hover {
+	color: black;
+	background-color: orange;
+}
+
+#summer nav a {
+	color: black;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+#summer nav a:hover {
+	color: rgb(30,144,255);
+	background-color: rgb(255,215,0);
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	background-color: red;
+	overflow: auto;
+}
+
+#seasons section {
+	background-color: gray;
+}
+
+#winter section {
+	background-color: #B3DAF1;
+}
+
+#spring section {
+	background-color: green;
+}
+
+#autumn section {
+	background-color: orange;
+}
+
+#summer section {
+	background-color: rgb(255,215,0);
+}
+
+.leftcol {
+		width: 370px;
+		background-color: yellow;
+		float: left;
+		padding: 10px;
+		border: 5px solid green
+		/*border: 2px solid purple;*/
+	}
+	
+.rightcol {
+	width: 370px;
+	background-color: tan;
+	float: right;
+	padding: 15px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+}
+
+#seasons .leftcol {
+		width: 370px;
+		font-size: 39px;
+		color: white;
+		background-color: rgb(105,105,105);
+		float: left;
+		padding: 5px 5px;
+		border: 5px solid gray;
+	}
+	
+#seasons .rightcol {
+	width: 1050px;
+	height: 1100x;
+	background-color: gray;
+	float: right;
+	padding: 5px;
+}
+
+#winter .leftcol {
+		width: 370px;
+		font-size: 39px;
+		color: #0099ff;
+		background-color: white;
+		float: left;
+		padding: 5px 5px;
+		border: 5px solid #B3DAF1;
+	
+	}
+	
+#winter .rightcol {
+	width: 1050px;
+	height: 1100x;
+	background-color: #B3DAF1;
+	float: right;
+	padding: 5px;
+}
+
+#spring .leftcol {
+		width: 370px;
+		font-size: 39px;
+		color: rgb(0,90,0);
+		background-color: rgb(255,245,238);
+		float: left;
+		padding: 5px 5px;
+		border: 5px solid green;
+	
+	}
+	
+#spring .rightcol {
+	width: 1050px;
+	height: 200px;
+	background-color: green;
+	float: right;
+	padding: 5px;
+}
+
+#autumn .leftcol {
+		width: 370px;
+		font-size: 39px;
+		color: black;
+		background-color: #d1242f;
+		float: left;
+		padding: 5px 5px;
+		border: 5px solid orange;
+	
+	}
+	
+#autumn .rightcol {
+	width: 1050px;
+	height: 200px;
+	background-color: orange;
+	float: right;
+	padding: 5px;
+}
+
+#summer .leftcol {
+		width: 370px;
+		font-size: 39px;
+		color: black;
+		background-color: rgb(30,144,255);
+		float: left;
+		padding: 5px 5px;
+		border: 5px solid rgb(255,215,0);
+	
+	}
+	
+#summer .rightcol {
+	width: 1050px;
+	height: 200px;
+	background-color: rgb(255,215,0);
+	float: right;
+	padding: 5px;
+}
+
+footer {
+	background-color: #ec3d0f;
+	color: white;
+	text-align: center;
+	font-weight: body;
+	padding: 10px 0;
+	
+}
+
+#seasons footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+
+#winter footer {
+	background-color: white;
+	color: #0099ff;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+
+#spring footer {
+	background-color: rgb(255,245,238);
+	color: rgb(0,90,0);
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+
+#autumn footer {
+	background-color: #d1242f;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+
+#summer footer {
+	background-color: rgb(30,144,255);
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px 0;
+	
+}
+
+
+
