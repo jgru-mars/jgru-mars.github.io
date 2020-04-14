@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #ddd;
+}
+
+body {
+	
+}
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+header, nav, section, footer {
+	background-color: white;
+	margin: 10px 0;
+}
+
+header {
+	
+}
+
+nav {
+	
+}
+
+section {
+	
+}
+
+footer {
+	
+}
