@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #800000;
+}
+
+body {
+	
+}
+
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	
+}
+
+nav {
+	text-align:center;
+	background-color: #B6B6B6;
+	border: 5px solid black;
+	padding: 15px 0;
+	font-family: Verdana;
+	font-size: 150%;
+}
+
+nav a {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	padding: 10px 30px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px darkblue;
+	background-color: #800000;
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+section {
+
+}
+
+.rome {
+	float: right;
+	width: 45%;
+	margin: 0 5px 10px 10px;
+	border: 3px solid #800000;
+	box-shadow: 0 4px 8px 0 #800000, 0 6px 20px 0 #800000;
+	}
+	
+.rome2 {
+	float: left;
+	width: 45%;
+	margin: 0 0 10px 5px;
+	border: 3px solid #800000;
+	box-shadow: 0 4px 8px 0 #800000, 0 6px 20px 0 #800000;
+	}	
+	
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+	
+.rome1 {
+	float: right;
+	width: 44.5%;
+	margin: 0 0 10px 10px;
+	border: 3px solid #800000;
+	box-shadow: 0 4px 8px 0 #800000, 0 6px 20px 0 #800000;
+	}
+	
+.rome3 {
+	float: right;
+	width:50%;
+	margin: 0 0 10px 10px;
+	border: 3px solid #800000;
+	box-shadow: 0 4px 8px 0 #800000, 0 6px 20px 0 #800000;
+	}
+	
+.fb-share-button {
+	float: right;
+	width:50%;
+	margin: 0 0 10px 10px;
+	border: 3px solid #800000;
+	box-shadow: 0 4px 8px 0 #800000, 0 6px 20px 0 #800000;
+	}
+	
+
+.slider-wrapper {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	
+}
+
+.formstuff1	{
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	}
+
+.formstuff	{
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	}
+
+.decade {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	text-align: center;
+	overflow: auto;
+	font-size: 250%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+}
+
+.cooldecade {
+	font-family: 'Great Vibes', cursive;
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	text-align: center;
+	overflow: auto;
+	font-size: 350%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+}
+	
+.thanks {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	text-align: center;
+	overflow: auto;
+	font-size: 250%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+}
+
+.maps {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 300%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	}
+	
+.info {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	}
+	
+
+	
+.news {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	}
+	
+.building {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+}
+
+.military {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	
+}
+
+.diplomacy {
+	background-color: silver;
+	padding: 10px;
+	border: 5px solid black;
+	overflow: auto;
+	font-size: 150%;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+}
+
+.myVideo {
+	width: 100%;
+}
+
+.myVideo iFrame{
+	margin: 0 auto;
+	display: block;
+	width: 560px;
+}
+
+
+footer {
+	background-color: silver;
+	font-family: 'Sriracha', cursive;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px #800000, 0 0 5px darkblue;
+	font-size: 80%;
+	border: 5px solid black;
+}
+
+@media screen and (max-width: 600px){
+	body {
+		background-color: silver;
+	}
+	#wrap {
+		width: 99%;
+	}
+	
+	nav a{
+		display: block;
+		width: 100%;
+		padding: 20px 0;
+	}
+	
+	nav ul, nav li{
+		margin: 0;
+		padding: 0;
+	}
+	
+	nav {
+		padding: 0;
+	}
+	
+	aside, article {
+		float: none;
+		width: 96%;
+	}
+	
+	.rome {
+		float: none;
+		width: 35%;
+	}
+	
+}
